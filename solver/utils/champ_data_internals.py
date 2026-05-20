@@ -26,11 +26,8 @@ from solver.utils.errors import (
     FetchURLError,
 )
 from solver.utils.champ_data_defs import (
-    RegexPatterns,
-    RegexMatchStr,
-    RegexMatchDict,
-    HTTPHeaders,
-    URLs,
+    RegexPatterns, RegexMatchStr, RegexMatchDict,
+    HTTPHeaders, URLs,
     LIST_FIELDS,
     ChampionDict
 )
@@ -77,7 +74,7 @@ def parse_champion_data(
             Field names that should be parsed from JSON-like strings into lists.
 
     Returns:
-        list[ChampionDict:
+        list[ChampionDict]:
             A list of dictionaries representing normalized champion data.
 
     Raises:
@@ -105,6 +102,9 @@ def _validated_champion_data(champions: list[ChampionDict]) -> list[ChampionDict
     allowed tolerance of ±1. This accounts for the possibility that
     a new champion has been added to the game but has not yet been
     updated in Loldle's roster or in the source used to compute the total.
+
+    Currently, the total number of expected champions is fetched using
+    Riot Games' website on League of Legends champions.
     """
     matched = len(champions)
     expected = _get_total_champion_count()
@@ -132,7 +132,7 @@ def get_latest_date(
     """
     Get the date of the last update of Loldle's Patch notes.
 
-    Use a regex pattern to find all dates from `url` in DD/MM/YYYY
+    Use a regex pattern to find all dates from `js_text` in DD/MM/YYYY
     format and return the most recent one.
     """
     date_matches = _find_str_matches(js_text, date_pattern)
@@ -146,8 +146,7 @@ def get_latest_date(
 def fetch_url_text(url: str, *, headers=HTTPHeaders.DEFAULT,
                    max_retries=3, backoff=2) -> str:
     """
-    Fetch the content of a url using the standard-lib module urllib with
-    retry support.
+    Fetch the content of a url using the urllib module with retry support.
 
     This function attempts to GET the given url, retrying on server-side
     errors (HTTP 5xx) or rate limiting (HTTP 429).
@@ -196,7 +195,7 @@ def find_minified_jsbundle_urls(
 
     Raises:
         MinifiedJSBundleNotFoundError: If no matching JS bundles are found
-        on the homepage.
+            on the homepage.
 
     Notes:
         - The returned URLs are absolute (homepage URL + relative path).
@@ -272,7 +271,9 @@ def _get_total_champion_count(
 
 
 def is_recent(date_str: str, *, days: int = 30) -> bool:
-    """Return True if the given date string is within the last specified `days`."""
+    """
+    Return True if the given date string is within the last specified `days`.
+    """
     try:
         latest_date = date.fromisoformat(date_str)
         today = date.today()
@@ -318,4 +319,7 @@ def _find_dict_matches(text: str, pattern) -> RegexMatchDict:
 
 
 def norm_property(p: str) -> str:
+    """
+    Normalize a property string value.
+    """
     return p.replace("_", " ").capitalize()

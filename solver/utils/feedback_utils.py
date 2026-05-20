@@ -9,6 +9,9 @@ from enum import StrEnum, auto
 PropertyValue: TypeAlias = frozenset[str] | str | int | integer
 
 class FeedbackPattern(NamedTuple):
+    """
+    Named tuple representing a feedback pattern for champion comparisons.
+    """
     name: Indicator
     positions: Indicator
     species: Indicator
@@ -30,7 +33,9 @@ PROPERTY_TO_INDICATORS_MAPPING: dict[str, tuple[str, ...]] = {
 
 
 class Indicator(StrEnum):
-    """Indicators used internally to signal correctness for each property."""
+    """
+    Indicators used internally to signal correctness for each property.
+    """
     CORRECT = auto()
     INCORRECT = auto()
 

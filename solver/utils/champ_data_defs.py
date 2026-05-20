@@ -73,6 +73,11 @@ class ChampionDict(TypedDict):
 
 
 class ChampionsJson(TypedDict):
+    """
+    Exact JSON format champion data will be stored.
+    `latest_update` is the date of the latest patch notes
+    on the LoLdle website.
+    """
     latest_update: str
     champions: list[ChampionDict]
 
