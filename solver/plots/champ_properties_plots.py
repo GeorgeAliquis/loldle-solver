@@ -79,7 +79,7 @@ def plot_release_year_distribution(
         own_figure = False
 
     # -----------------------
-    # BARS (single uniform color)
+    # BARS
     # -----------------------
     bar_color = "#4FC3F7"
 

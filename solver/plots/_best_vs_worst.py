@@ -15,6 +15,16 @@ from solver.engine.guess_evaluation import (
 
 
 def _get_best_worst(n: int = 10, *, champ_path: Path | str) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Compute the top and bottom LoLdle champions by entropy (informational value).
+
+    Returns two DataFrames with the `n` most and least informative champions,
+    based on entropy ("bits") computed from guess pattern distributions.
+
+    Returns:
+        (best, worst) : tuple[pd.DataFrame, pd.DataFrame]
+            Best = highest entropy champions, Worst = lowest entropy champions.
+    """
     all_champions = load_champions(champ_path)
 
     pattern_id_matrix = compute_pattern_id_matrix(all_champions, all_champions)

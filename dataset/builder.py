@@ -2,7 +2,8 @@
 Module for LoLdle analysis.
 
 Users may run this to create a dataset (CSV) with the most
-recent LoLdle properties and work with the loldle_df (Pandas DataFrame) below.
+recent LoLdle properties and work with the `loldle_df`
+(Pandas DataFrame) below.
 """
 from pathlib import Path
 import json

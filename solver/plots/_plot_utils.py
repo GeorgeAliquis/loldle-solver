@@ -7,17 +7,6 @@ import ast
 import pandas as pd
 
 
-def _safe_eval(x):
-    if isinstance(x, list):
-        return x
-    if isinstance(x, str):
-        try:
-            return ast.literal_eval(x)
-        except ValueError:
-            return x
-    return x
-
-
 def _make_top_bottom_title(
     base_title: str,
     top_k: int | None = None,
@@ -184,3 +173,14 @@ def _add_cover_background(fig, img):
             zorder=2
         )
     )
+
+
+def _safe_eval(x):
+    if isinstance(x, list):
+        return x
+    if isinstance(x, str):
+        try:
+            return ast.literal_eval(x)
+        except ValueError:
+            return x
+    return x
