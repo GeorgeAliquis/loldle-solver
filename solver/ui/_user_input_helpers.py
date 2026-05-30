@@ -29,11 +29,15 @@ def _champion_lookup(champions: Champions) -> ChampionLookup:
 
 
 def _convert_str_to_champion(user_input: str, lookup: ChampionLookup) -> Champion:
-    """Return the Champion object from a champion name."""
+    """
+    Return the Champion object that corresponds to a
+    champion name provided by the user.
+    """
     user_choice = user_input.lower().strip()
+    invalid_champ_text = f"Invalid champion: {user_input!r}"
 
     if len(user_input) < 2:
-        raise ValueError(f"Invalid champion: {user_input!r}")
+        raise ValueError(invalid_champ_text)
 
     for champ_aliases in lookup:
         closest_match = difflib.get_close_matches(
@@ -43,7 +47,7 @@ def _convert_str_to_champion(user_input: str, lookup: ChampionLookup) -> Champio
             # Return the Champion object of the closest match
             return lookup[champ_aliases]
 
-    raise ValueError(f"Invalid champion: {user_input!r}")
+    raise ValueError(invalid_champ_text)
 
 
 def _get_valid_indicator(

@@ -49,13 +49,15 @@ class Champion:
         Class method of ``Champion`` class that returns a sequence of all champion
         properties (except champion.name), for property comparisons between champions.
 
-        If `normalize` is ``True``, the champion properties are capitalized underscores
+        If `normalize` is ``True``, the champion properties are capitalized and underscores
         are converted to whitespace (e.g. "release_year" becomes "Release year").
         """
-        return tuple(
-            norm_property(p) if normalize else p
-            for p in cls.__annotations__ if p != 'name'
-        )
+        props = list(Champion.__annotations__)[1:]
+
+        if normalize:
+            return tuple(norm_property(p) for p in props)
+        else:
+            return tuple(p for p in props)
 
     @classmethod
     def from_dict(cls, champ_properties: ChampionDict) -> Champion:

@@ -119,9 +119,9 @@ def _validated_champion_data(champions: list[ChampionDict]) -> list[ChampionDict
     # Check if 'matched' is outside the allowed tolerance
     tolerance = 1
     difference = matched - expected
-
     if abs(difference) > tolerance and (172 <= matched <= 200) and (172 <= expected <= 200):
         raise InvalidChampionCount(matched, expected, tolerance, difference)
+
     return champions
 
 
@@ -262,8 +262,6 @@ def _get_total_champion_count(
     This function fetches the HTML content from the specified
     url and counts the occurrences of champion entries using the
     provided regular expression pattern.
-
-    It returns the total number of champions detected.
     """
     text = fetch_url_text(url)
     matches = _find_str_matches(text, pattern)
