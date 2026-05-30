@@ -34,8 +34,8 @@ Each guess partitions the space of possible champions based on the feedback it p
 
 We evaluate guesses using:
 
-* **Entropy** → Measures expected information gain (in bits) → higher = better
-* **Expected remaining candidates** → Measures how much the search space shrinks → lower = better
+* **Entropy** → Measures expected information gain (in bits) → higher is better
+* **Expected remaining candidates** → Measures how much the search space shrinks → lower is better
 
 The optimal guess is the one that:
 
@@ -79,7 +79,7 @@ where each $x$ corresponds to a unique feedback pattern induced by a guess.
 
 * Exploratory analysis of data used by LoLdle
 * Plots of distributions
-* Code & internal logic used for the solver
+* Code & internal logic used to solve the game
 
 ### LoLdle Dataset Builder
 
@@ -94,12 +94,12 @@ where each $x$ corresponds to a unique feedback pattern induced by a guess.
 1. Start with all possible champions
 2. For each possible guess:
    * Simulate all feedback outcomes
-   * Compute probability of each outcome
-   * Calculate entropy
-3. Prompt the user for a guess
-4. Prompt the user for the feedback they received
-5. Filter candidates based on the guess and feedback
-6. Repeat until the hidden champion is found
+   * Compute **entropy** and **expected remaining champions** of each outcome
+   * Provide the best champions to guess
+3. Prompt the user for a **guess**
+4. Prompt the user for the **feedback** they received
+5. Filter candidates based on the **guess** and **feedback**
+6. Repeat steps 2-5 until the hidden champion is found
 
 
 ---
