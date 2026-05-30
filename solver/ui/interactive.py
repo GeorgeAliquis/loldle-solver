@@ -167,9 +167,10 @@ def one_remaining(candidates: Champions) -> bool:
 
 
 def welcome_user():
-    _line("=")
+    welcome_text = "Welcome to the Loldle solver using math!"
+    _line("=", length=welcome_text)
     print(
-        "Welcome to the Loldle solver using math!"
+        f"{welcome_text}"
 
         "\n\nChoose a champion from the best guesses for maximum information, or choose any champion"
         "\nin Loldle and then enter the champion you chose here."

@@ -14,7 +14,7 @@ import difflib
 from solver.utils.feedback_utils import PROPERTY_TO_INDICATORS_MAPPING, PropertyValue, Indicator
 from solver.champ_pipeline.champions import Champion, Champions
 
-DEFAULT_LINE_LEN: int = 100
+DEFAULT_LINE_LEN: int = 80
 ChampionLookup: TypeAlias = dict[frozenset[str], Champion]
 
 
