@@ -119,7 +119,7 @@ python --version
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/GeorgeAvramidis/loldle-solver
+git clone https://github.com/GeorgeAliquis/loldle-solver
 cd loldle-solver
 ```
 
