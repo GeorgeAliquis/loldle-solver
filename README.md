@@ -55,40 +55,6 @@ where each $x$ corresponds to a unique feedback pattern induced by a guess.
 
 ---
 
-## Features
-
-### Fully Automated ETL Pipeline
-
-* Automatically fetches all data used by LoLdle for each champion
-* Stores the data in JSON format
-* Automatically updates upon new patch notes
-
-### Information-Theoretic Solver
-
-* Computes entropy of each possible guess
-* Evaluates how well a guess splits the hypothesis space
-* Dynamically updates after each round
-
-### Interactive CLI Tool
-
-* User inputs feedback from LoLdle
-* Solver recomputes best guesses in real time
-* Provides ranked suggestions for next guess
-
-### Informative Jupyter Notebook
-
-* Exploratory analysis of data used by LoLdle
-* Plots of distributions
-* Code & internal logic used to solve the game
-
-### LoLdle Dataset Builder
-
-* Automatically generate the *up-to-date* dataset used by LoLdle
-* Includes all properties of all champions (gender, positions, species, etc.)
-* Includes guess rankings for champions (entropy, expected remaining champions)
-
----
-
 ## How It Works
 
 1. Start with all possible champions
@@ -100,7 +66,6 @@ where each $x$ corresponds to a unique feedback pattern induced by a guess.
 4. Prompt the user for the **feedback** they received
 5. Filter candidates based on the **guess** and **feedback**
 6. Repeat steps 2-5 until the hidden champion is found
-
 
 ---
 
@@ -154,13 +119,46 @@ pip install -r requirements.txt
 ```bash
 python -m solver
 ```
-> Make sure you run this from the project root directory
 
 ### 6. Follow prompts
 
 * Enter your guess in LoLdle
 * Input the feedback exactly as shown in the game
 * The solver will suggest optimal next guesses
+
+---
+
+## Features
+
+### Fully Automated ETL Pipeline
+
+* Automatically fetches all data used by LoLdle for each champion
+* Stores the data in JSON format
+* Automatically updates upon new patch notes
+
+### Information-Theoretic Solver
+
+* Computes entropy of each possible guess
+* Evaluates how well a guess splits the hypothesis space
+* Dynamically updates after each round
+
+### Interactive CLI Tool
+
+* User inputs feedback from LoLdle
+* Solver recomputes best guesses in real time
+* Provides ranked suggestions for next guess
+
+### Informative Jupyter Notebook
+
+* Exploratory analysis of data used by LoLdle
+* Plots of distributions
+* Code & internal logic used to solve the game
+
+### LoLdle Dataset Builder
+
+* Automatically generate the *up-to-date* dataset used by LoLdle
+* Includes all properties of all champions (gender, positions, species, etc.)
+* Includes guess rankings for champions (entropy, expected remaining champions)
 
 ---
 
@@ -211,6 +209,6 @@ It bridges theory and practice by turning a game into an **optimization problem*
 
 ## Author
 
-George Avramidis
+George Aliquis
 
 ---
