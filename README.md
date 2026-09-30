@@ -162,20 +162,6 @@ python -m solver
 
 ---
 
-## Why This Project Matters
-
-This project demonstrates:
-
-* Applied **ETL pipelines** to fetch data
-* Applied **information theory**
-* **Algorithm design** for decision-making under uncertainty
-* Real-world problem modeling
-* Clean modular Python architecture
-
-It bridges theory and practice by turning a game into an **optimization problem**.
-
----
-
 ## Project Structure
 ```
 .
