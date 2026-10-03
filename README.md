@@ -17,7 +17,7 @@ The project includes:
 ## Table of Contents
 
 - [Overview](#overview)
-- [Solver Demo](#demo)
+- [Solver Demo](#solver-demo)
 - [What is LoLdle?](#what-is-loldle)
 - [Key Idea](#key-idea)
 - [How It Works](#how-it-works)
