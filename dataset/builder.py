@@ -13,53 +13,39 @@ import pandas as pd
 from solver.utils import paths
 from solver.champ_pipeline.loader import load_champions, create_champions_json
 from solver.champ_pipeline.champions import Champion
-from solver.engine.guess_evaluation import (
-    compute_metrics,
-    compute_pattern_id_matrix,
-)
+
 
 def create_csv_metrics(load: Path, output: Path) -> None:
     """
-    Fetch the most recent LoLdle properties and write the metrics to a CSV file
-    and store it in the `results` directory.
+    Fetch the most recent LoLdle properties and write data
+    to a CSV file and store it in the `results` directory.
     """
     # ----------------------------
     # Load data
     # ----------------------------
-    create_champions_json(paths.resources / "champions.json", overwrite=True)
+    create_champions_json(load, overwrite=True)
     champions = load_champions(load)
-    guess_ids = {champ.name: i for i, champ in enumerate(champions)}
 
     # ----------------------------
-    # Compute dataset
+    # Build table
     # ----------------------------
-    pattern_id_matrix = compute_pattern_id_matrix(
-        guesses=champions,
-        targets=champions,
-    )
+    with open(load, "r") as f:
+        champions_json = json.load(f)
+        champion_data = champions_json["champions"]
 
-    metrics_df = compute_metrics(pattern_id_matrix, guess_ids)
+    df = pd.DataFrame.from_dict(champion_data)
 
-    # ----------------------------
-    # Build final table
-    # ----------------------------
-    df = metrics_df.copy()
-
-    df["champion"] = df.index
-    df["rank"] = df["entropy"].rank(ascending=False, method="first").astype(int)
-
-    props = list(Champion.properties())
+    properties = list(Champion.properties())
     champ_map = {champ.name: champ for champ in champions}
 
-    for prop in props:
+    df = df.rename(columns={"championName": "champion"})
+
+    for prop in properties:
         df[prop] = df["champion"].map(
             lambda name: _serialize_value(getattr(champ_map[name], prop))
         )
 
-    df = df.sort_values("rank")[
-        ["rank", "champion", "entropy", "expected_remaining"] + props
-        ]
-
+    df = df.sort_values("champion")[["champion"] + properties]
 
     # ----------------------------
     # Save

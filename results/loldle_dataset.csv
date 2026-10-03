@@ -1,174 +1,174 @@
-rank,champion,entropy,expected_remaining,gender,positions,species,resource,range_type,regions,release_year
-1,Talon,6.2333895923353815,2.9186046511627906,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Noxus""]",2011
-2,Riven,6.157978947722668,3.2325581395348837,Female,"[""Top""]","[""Human""]",Manaless,"[""Melee""]","[""Ionia"", ""Noxus""]",2011
-3,Xin Zhao,6.142635868646797,3.244186046511628,Male,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia"", ""Ionia"", ""Noxus""]",2010
-4,Cassiopeia,6.136521101496596,3.2674418604651163,Female,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus"", ""Shurima""]",2010
-5,Brand,6.081999475955685,3.2674418604651163,Male,"[""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Freljord"", ""Runeterra""]",2011
-6,Darius,6.028440139946542,3.686046511627907,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Noxus""]",2012
-7,Vi,5.997847077323887,3.4069767441860463,Female,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Piltover"", ""Zaun""]",2012
-8,Syndra,5.995447482272812,4.034883720930233,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ionia""]",2012
-9,Vayne,5.9916392146445965,3.383720930232558,Female,"[""Bottom"", ""Top""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia""]",2011
-10,Sona,5.98451942513868,3.5232558139534884,Female,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Demacia"", ""Ionia""]",2010
-11,Zed,5.962212505408432,3.7325581395348837,Male,"[""Jungle"", ""Middle""]","[""Human"", ""Magically Altered""]",Energy,"[""Melee""]","[""Ionia""]",2012
-12,Ekko,5.958000980331462,3.8372093023255816,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Zaun""]",2015
-13,Jarvan IV,5.931895021054293,3.941860465116279,Male,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2011
-14,Graves,5.911826686669507,3.953488372093023,Male,"[""Jungle""]","[""Human""]",Mana,"[""Ranged""]","[""Bilgewater""]",2011
-15,Irelia,5.900776442155649,3.616279069767442,Female,"[""Middle"", ""Top""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Ionia""]",2010
-16,Vladimir,5.887853078629347,3.8488372093023258,Male,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Bloodthirst,"[""Ranged""]","[""Camavor"", ""Noxus"", ""Shadow Isles""]",2010
-17,Karma,5.887552711780941,3.895348837209302,Female,"[""Support""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2011
-18,Fiora,5.87917730624069,4.104651162790698,Female,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2012
-19,Lux,5.855182761692005,3.813953488372093,Female,"[""Middle"", ""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Demacia""]",2010
-20,Yorick,5.84316755053778,4.093023255813954,Male,"[""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Shadow Isles""]",2011
-21,Varus,5.839039677708477,3.9302325581395348,Male,"[""Bottom""]","[""Darkin"", ""Human""]",Mana,"[""Ranged""]","[""Ionia"", ""Runeterra"", ""Shurima""]",2012
-22,Ivern,5.836314868802411,4.465116279069767,Male,"[""Jungle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Freljord"", ""Ionia""]",2016
-23,Swain,5.835122361279899,4.209302325581396,Male,"[""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus""]",2010
-24,Viktor,5.834777093062197,3.9651162790697674,Male,"[""Middle""]","[""Cyborg"", ""Human""]",Mana,"[""Ranged""]","[""Piltover"", ""Zaun""]",2011
-25,Akali,5.82433358242531,4.686046511627907,Female,"[""Middle""]","[""Human""]",Energy,"[""Melee""]","[""Ionia""]",2010
-26,Yasuo,5.813757610582913,4.406976744186046,Male,"[""Middle"", ""Top""]","[""Human"", ""Magicborn""]",Flow,"[""Melee""]","[""Ionia""]",2013
-27,LeBlanc,5.813212189008553,4.511627906976744,Female,"[""Middle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus""]",2010
-28,Urgot,5.801268844057949,4.4186046511627906,Male,"[""Top""]","[""Chemically Altered"", ""Cyborg"", ""Human""]",Mana,"[""Ranged""]","[""Noxus"", ""Zaun""]",2010
-29,Sylas,5.790668267670883,4.1976744186046515,Male,"[""Jungle"", ""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Melee""]","[""Demacia"", ""Freljord""]",2019
-30,Draven,5.779754869699401,4.5,Male,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Noxus""]",2012
-31,Zilean,5.775073641323054,4.290697674418604,Male,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Icathia"", ""Runeterra"", ""Shurima""]",2009
-32,Diana,5.757551233342179,4.151162790697675,Female,"[""Jungle"", ""Middle""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2012
-33,Kayn,5.755650316587721,4.127906976744186,Male,"[""Jungle""]","[""Darkin"", ""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Ionia"", ""Noxus"", ""Runeterra"", ""Shurima""]",2017
-34,Shen,5.746763506134295,4.0813953488372094,Male,"[""Support"", ""Top""]","[""Human"", ""Spiritualist""]",Energy,"[""Melee""]","[""Ionia""]",2010
-35,Quinn,5.739071819592826,4.616279069767442,Female,"[""Top""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia""]",2013
-36,Malzahar,5.7353714842289065,4.488372093023256,Male,"[""Middle""]","[""Human"", ""Void-Being""]",Mana,"[""Ranged""]","[""Shurima"", ""Void""]",2010
-37,Lee Sin,5.720567402063461,4.569767441860465,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Energy,"[""Melee""]","[""Ionia""]",2011
-38,Taliyah,5.711911691746602,5.209302325581396,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Shurima""]",2016
-39,Sejuani,5.690877215758687,4.686046511627907,Female,"[""Jungle""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2012
-40,Annie,5.674775266399001,4.488372093023256,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Noxus"", ""Runeterra""]",2009
-41,Caitlyn,5.66292422015758,4.5,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Piltover""]",2011
-42,Lucian,5.659963014624196,4.953488372093023,Male,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia"", ""Shadow Isles""]",2013
-43,Lissandra,5.635924443142943,5.034883720930233,Female,"[""Middle""]","[""Human"", ""Iceborn""]",Mana,"[""Ranged""]","[""Freljord""]",2013
-44,Garen,5.6188242885015836,5.22093023255814,Male,"[""Top""]","[""Human""]",Manaless,"[""Melee""]","[""Demacia""]",2010
-45,Leona,5.61409013945735,4.662790697674419,Female,"[""Support""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2011
-46,Elise,5.6095220417826805,4.883720930232558,Female,"[""Jungle"", ""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee"", ""Ranged""]","[""Noxus"", ""Shadow Isles""]",2012
-47,Udyr,5.604950821969332,5.244186046511628,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Freljord"", ""Ionia""]",2009
-48,Olaf,5.570712110688551,5.290697674418604,Male,"[""Top""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2010
-49,Ezreal,5.547837716339352,5.0813953488372094,Male,"[""Bottom""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Piltover""]",2010
-50,Braum,5.539150099479952,5.255813953488372,Male,"[""Support""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2014
-51,Katarina,5.537159762057787,5.511627906976744,Female,"[""Middle""]","[""Human""]",Manaless,"[""Melee""]","[""Noxus""]",2009
-52,Zyra,5.533184299262154,5.174418604651163,Female,"[""Support""]","[""Human"", ""Plant""]",Mana,"[""Ranged""]","[""Ixtal""]",2012
-53,Seraphine,5.5291189552272595,5.825581395348837,Female,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Piltover"", ""Zaun""]",2020
-54,Miss Fortune,5.525403803564682,4.848837209302325,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Bilgewater""]",2010
-55,Illaoi,5.513701561312933,5.5,Female,"[""Top""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Bilgewater""]",2015
-56,K'Sante,5.513441513078341,5.895348837209302,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Shurima""]",2022
-57,Akshan,5.511513246788545,5.534883720930233,Male,"[""Middle""]","[""Human""]",Mana,"[""Ranged""]","[""Shurima""]",2021
-58,Master Yi,5.499269824126433,5.8023255813953485,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Ionia""]",2009
-59,Ryze,5.498493672152629,5.488372093023256,Male,"[""Middle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Runeterra""]",2009
-60,Gragas,5.490117392175653,5.406976744186046,Male,"[""Jungle"", ""Top""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2010
-61,Morgana,5.464719216713775,4.930232558139535,Female,"[""Middle"", ""Support""]","[""Aspect"", ""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Demacia"", ""Targon""]",2009
-62,Sivir,5.460823953329784,5.5,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Shurima""]",2009
-63,Yone,5.457123833165987,5.976744186046512,Male,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Manaless,"[""Melee""]","[""Ionia""]",2020
-64,Qiyana,5.447463100493416,5.523255813953488,Female,"[""Jungle"", ""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Melee""]","[""Ixtal""]",2019
-65,Gangplank,5.446487013508268,5.767441860465116,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Bilgewater""]",2009
-66,Twisted Fate,5.4446897630815725,5.313953488372093,Male,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Bilgewater""]",2009
-67,Jayce,5.4388144420034195,5.255813953488372,Male,"[""Jungle"", ""Top""]","[""Human""]",Mana,"[""Melee"", ""Ranged""]","[""Piltover""]",2012
-68,Samira,5.435258432389723,6.058139534883721,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Noxus"", ""Shurima""]",2020
-69,Kassadin,5.4334745568350025,5.534883720930233,Male,"[""Middle""]","[""Human"", ""Void-Being""]",Mana,"[""Melee""]","[""Shurima"", ""Void""]",2009
-70,Singed,5.4164307727880345,5.825581395348837,Male,"[""Top""]","[""Chemically Altered"", ""Human""]",Mana,"[""Melee""]","[""Piltover"", ""Zaun""]",2009
-71,Ahri,5.3731977825062796,6.337209302325581,Female,"[""Middle""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ionia""]",2011
-72,Taric,5.370509553150623,5.569767441860465,Male,"[""Support""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Demacia"", ""Targon""]",2009
-73,Mel,5.365868499635482,5.616279069767442,Female,"[""Middle"", ""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus"", ""Piltover""]",2025
-74,Xerath,5.361900253511806,5.383720930232558,Male,"[""Middle"", ""Support""]","[""Baccai""]",Mana,"[""Ranged""]","[""Shurima""]",2011
-75,Pantheon,5.355316657498955,5.523255813953488,Male,"[""Jungle"", ""Support"", ""Top""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2010
-76,Jhin,5.3485033346147635,6.790697674418604,Male,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2016
-77,Wukong,5.347023500769836,6.569767441860465,Male,"[""Jungle""]","[""Vastayan""]",Mana,"[""Melee""]","[""Ionia""]",2011
-78,Camille,5.333346505023768,6.244186046511628,Female,"[""Top""]","[""Cyborg"", ""Human""]",Mana,"[""Melee""]","[""Piltover""]",2016
-79,Tryndamere,5.2870800171686625,6.767441860465116,Male,"[""Top""]","[""Human"", ""Magically Altered""]",Fury,"[""Melee""]","[""Freljord""]",2009
-80,Rell,5.278324281660973,6.709302325581396,Female,"[""Support""]","[""Human"", ""Magically Altered"", ""Magicborn""]",Mana,"[""Melee""]","[""Noxus""]",2020
-81,Warwick,5.273950710741762,6.476744186046512,Male,"[""Jungle""]","[""Chemically Altered"", ""Cyborg"", ""Human""]",Mana,"[""Melee""]","[""Zaun""]",2009
-82,Jinx,5.271237634379521,6.616279069767442,Female,"[""Bottom""]","[""Chemically Altered"", ""Human""]",Mana,"[""Ranged""]","[""Zaun""]",2013
-83,Nami,5.266905421776208,6.976744186046512,Female,"[""Support""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Bilgewater"", ""Runeterra""]",2012
-84,Poppy,5.256899636086063,6.4186046511627906,Female,"[""Support"", ""Top""]","[""Yordle""]",Mana,"[""Melee""]","[""Demacia""]",2010
-85,Kennen,5.253491752787985,6.465116279069767,Male,"[""Middle"", ""Top""]","[""Yordle""]",Energy,"[""Ranged""]","[""Ionia""]",2010
-86,Hwei,5.247663390187709,7.093023255813954,Male,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ionia""]",2023
-87,Nocturne,5.241169037632584,7.27906976744186,Male,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2011
-88,Nunu & Willump,5.240757511865171,7.0813953488372094,Male,"[""Jungle""]","[""Human"", ""Yeti""]",Mana,"[""Melee""]","[""Freljord""]",2009
-89,Fizz,5.235072531125131,6.883720930232558,Male,"[""Middle""]","[""Yordle""]",Mana,"[""Melee""]","[""Bilgewater""]",2011
-90,Zoe,5.230927906961825,7.046511627906977,Female,"[""Middle""]","[""Aspect"", ""Human""]",Mana,"[""Ranged""]","[""Targon""]",2017
-91,Zaahen,5.214953695209072,6.5813953488372094,Male,"[""Top""]","[""Darkin"", ""Human""]",Mana,"[""Melee""]","[""Ionia"", ""Shurima""]",2025
-92,Maokai,5.2055966679665335,7.023255813953488,Male,"[""Support""]","[""Spirit""]",Mana,"[""Melee""]","[""Shadow Isles""]",2011
-93,Senna,5.183508126682769,7.255813953488372,Female,"[""Support""]","[""Human"", ""Undead""]",Mana,"[""Ranged""]","[""Shadow Isles""]",2019
-94,Ziggs,5.177318542593522,7.895348837209302,Male,"[""Bottom"", ""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Zaun""]",2012
-95,Kai'Sa,5.172707069418297,7.058139534883721,Female,"[""Bottom""]","[""Human"", ""Void-Being""]",Mana,"[""Ranged""]","[""Shurima"", ""Void""]",2018
-96,Locke,5.165989570773256,6.162790697674419,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2026
-97,Amumu,5.163329783734983,8.255813953488373,Male,"[""Jungle""]","[""Undead"", ""Yordle""]",Mana,"[""Melee""]","[""Shurima""]",2009
-98,Tahm Kench,5.13837588119984,6.813953488372093,Male,"[""Support"", ""Top""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Bilgewater"", ""Runeterra""]",2015
-99,Ambessa,5.124463390162396,7.558139534883721,Female,"[""Top""]","[""Human""]",Energy,"[""Melee""]","[""Noxus"", ""Piltover""]",2024
-100,Volibear,5.101467142779455,7.744186046511628,Male,"[""Jungle"", ""Top""]","[""God"", ""Spirit""]",Mana,"[""Melee""]","[""Freljord""]",2011
-101,Shyvana,5.0802395729708305,7.8023255813953485,Female,"[""Jungle""]","[""Dragon"", ""Magically Altered""]",Fury,"[""Melee""]","[""Demacia""]",2011
-102,Renata Glasc,5.069779077852518,7.72093023255814,Female,"[""Support""]","[""Chemically Altered"", ""Human""]",Mana,"[""Ranged""]","[""Zaun""]",2022
-103,Orianna,5.062310604512497,7.546511627906977,Female,"[""Middle""]","[""Golem""]",Mana,"[""Ranged""]","[""Piltover""]",2011
-104,Galio,5.05764014891734,8.069767441860465,Male,"[""Middle""]","[""Golem""]",Mana,"[""Melee""]","[""Demacia""]",2010
-105,Gwen,5.0556092811640925,7.755813953488372,Female,"[""Jungle"", ""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2021
-106,Rengar,5.043128414301707,7.604651162790698,Male,"[""Jungle""]","[""Vastayan""]",Ferocity,"[""Melee""]","[""Ixtal"", ""Shurima""]",2012
-107,Aphelios,5.041411363286656,8.36046511627907,Male,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Targon""]",2019
-108,Veigar,5.035678831750772,7.674418604651163,Male,"[""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Runeterra"", ""Shadow Isles""]",2009
-109,Janna,5.027412809356864,7.313953488372093,Female,"[""Support""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Shurima"", ""Zaun""]",2009
-110,Ashe,5.024697853948753,6.906976744186046,Female,"[""Bottom""]","[""Human"", ""Iceborn""]",Mana,"[""Ranged""]","[""Freljord""]",2009
-111,Sett,5.021687579818847,7.662790697674419,Male,"[""Top""]","[""Human"", ""Vastayan""]",Grit,"[""Melee""]","[""Ionia""]",2020
-112,Milio,5.017658144708623,7.848837209302325,Male,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ixtal""]",2023
-113,Hecarim,4.99619519192924,8.232558139534884,Male,"[""Jungle""]","[""Undead""]",Mana,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2012
-114,Renekton,4.991780228414198,7.941860465116279,Male,"[""Top""]","[""God-Warrior""]",Fury,"[""Melee""]","[""Shurima""]",2011
-115,Lulu,4.974027544015874,8.546511627906977,Female,"[""Support""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2012
-116,Azir,4.970352375374697,9.116279069767442,Male,"[""Middle""]","[""God-Warrior""]",Mana,"[""Ranged""]","[""Shurima""]",2014
-117,Aurelion Sol,4.94694342726158,9.186046511627907,Male,"[""Middle""]","[""Celestial"", ""Dragon""]",Mana,"[""Ranged""]","[""Runeterra"", ""Targon""]",2016
-118,Rakan,4.944662788009044,10.279069767441861,Male,"[""Support""]","[""Vastayan""]",Mana,"[""Melee""]","[""Ionia""]",2017
-119,Aatrox,4.913706589298624,8.069767441860465,Male,"[""Top""]","[""Darkin""]",Manaless,"[""Melee""]","[""Runeterra"", ""Shurima""]",2013
-120,Karthus,4.913343414827008,9.244186046511627,Male,"[""Jungle""]","[""Undead""]",Mana,"[""Ranged""]","[""Noxus"", ""Shadow Isles""]",2009
-121,Skarner,4.912394363467767,8.418604651162791,Male,"[""Jungle""]","[""Brackern""]",Mana,"[""Melee""]","[""Ixtal""]",2011
-122,Zeri,4.906789845458095,8.988372093023257,Female,"[""Bottom""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Zaun""]",2022
-123,Heimerdinger,4.905005252602655,8.30232558139535,Male,"[""Middle"", ""Top""]","[""Yordle""]",Mana,"[""Ranged""]","[""Piltover""]",2009
-124,Nautilus,4.893026636508915,8.709302325581396,Male,"[""Support""]","[""Revenant""]",Mana,"[""Melee""]","[""Bilgewater""]",2012
-125,Mordekaiser,4.8779876718367845,8.883720930232558,Male,"[""Top""]","[""Revenant""]",Shield,"[""Melee""]","[""Noxus"", ""Shadow Isles""]",2010
-126,Malphite,4.87691996064114,9.523255813953488,Male,"[""Top""]","[""Golem""]",Mana,"[""Melee""]","[""Ixtal"", ""Shurima""]",2009
-127,Dr. Mundo,4.874887661195969,8.55813953488372,Male,"[""Jungle"", ""Top""]","[""Chemically Altered"", ""Human""]",Health costs,"[""Melee""]","[""Zaun""]",2009
-128,Ornn,4.874089535334184,10.023255813953488,Male,"[""Top""]","[""God"", ""Spirit""]",Mana,"[""Melee""]","[""Freljord""]",2017
-129,Lillia,4.860663101349163,11.116279069767442,Female,"[""Jungle""]","[""Spirit""]",Mana,"[""Melee""]","[""Ionia""]",2020
-130,Kha'Zix,4.856559818797283,8.848837209302326,Male,"[""Jungle""]","[""Void-Being""]",Mana,"[""Melee""]","[""Void""]",2012
-131,Soraka,4.831921998811362,8.546511627906977,Female,"[""Support""]","[""Celestial""]",Mana,"[""Ranged""]","[""Ionia"", ""Targon""]",2009
-132,Nilah,4.8212498545102855,9.127906976744185,Female,"[""Bottom""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Bilgewater""]",2022
-133,Shaco,4.818960425158215,9.034883720930232,Male,"[""Jungle"", ""Support""]","[""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2009
-134,Trundle,4.815125056652152,9.744186046511627,Male,"[""Jungle"", ""Top""]","[""Iceborn"", ""Troll""]",Mana,"[""Melee""]","[""Freljord""]",2010
-135,Thresh,4.81190743293018,9.744186046511627,Male,"[""Support""]","[""Undead""]",Mana,"[""Ranged""]","[""Shadow Isles""]",2013
-136,Rammus,4.806692776063029,10.44186046511628,Male,"[""Jungle""]","[""Unknown""]",Mana,"[""Melee""]","[""Shurima""]",2009
-137,Alistar,4.796594399298273,8.94186046511628,Male,"[""Support""]","[""Minotaur""]",Mana,"[""Melee""]","[""Noxus"", ""Runeterra""]",2009
-138,Anivia,4.795091934327867,9.127906976744185,Female,"[""Middle""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Freljord""]",2009
-139,Nasus,4.794451394425932,10.848837209302326,Male,"[""Top""]","[""God-Warrior""]",Mana,"[""Melee""]","[""Shurima""]",2009
-140,Bard,4.769220274942764,10.453488372093023,Male,"[""Support""]","[""Celestial""]",Mana,"[""Ranged""]","[""Runeterra""]",2015
-141,Yunara,4.763293126954903,9.709302325581396,Female,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2025
-142,Kled,4.730551610759632,10.616279069767442,Male,"[""Top""]","[""Yordle""]",Courage,"[""Melee""]","[""Noxus""]",2016
-143,Sion,4.725686048302356,10.965116279069768,Male,"[""Top""]","[""Revenant""]",Mana,"[""Melee""]","[""Noxus""]",2009
-144,Nidalee,4.706709251020946,10.116279069767442,Female,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee"", ""Ranged""]","[""Ixtal""]",2009
-145,Vel'Koz,4.704745706762775,9.290697674418604,Male,"[""Middle"", ""Support""]","[""Void-Being""]",Mana,"[""Ranged""]","[""Void""]",2014
-146,Kayle,4.6987336282912775,10.093023255813954,Female,"[""Top""]","[""Aspect"", ""Human"", ""Magically Altered""]",Mana,"[""Melee"", ""Ranged""]","[""Demacia"", ""Targon""]",2009
-147,Yuumi,4.6821103284376955,12.034883720930232,Female,"[""Support""]","[""Cat"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Bandle City""]",2019
-148,Jax,4.669746092696353,10.046511627906977,Male,"[""Jungle"", ""Top""]","[""Unknown""]",Mana,"[""Melee""]","[""Icathia"", ""Runeterra"", ""Shurima""]",2009
-149,Rumble,4.666692293734474,9.430232558139535,Male,"[""Top""]","[""Yordle""]",Heat,"[""Melee""]","[""Bandle City""]",2011
-150,Evelynn,4.640083876779668,11.732558139534884,Female,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2009
-151,Naafiri,4.6190915065673686,10.5,Female,"[""Jungle"", ""Middle""]","[""Darkin"", ""Dog""]",Mana,"[""Melee""]","[""Shurima""]",2023
-152,Rek'Sai,4.610832197974296,10.534883720930232,Female,"[""Jungle""]","[""Void-Being""]",Rage,"[""Melee""]","[""Shurima"", ""Void""]",2014
-153,Xayah,4.582015238633586,13.523255813953488,Female,"[""Bottom""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ionia""]",2017
-154,Vex,4.57789186737749,13.081395348837209,Female,"[""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Shadow Isles""]",2021
-155,Zac,4.554118896957043,10.69767441860465,Male,"[""Jungle""]","[""Golem""]",Health costs,"[""Melee""]","[""Zaun""]",2013
-156,Teemo,4.499853764911327,12.337209302325581,Male,"[""Top""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2009
-157,Kog'Maw,4.499028912997086,10.976744186046512,Male,"[""Bottom""]","[""Void-Being""]",Mana,"[""Ranged""]","[""Void""]",2010
-158,Pyke,4.472700266249685,12.80232558139535,Male,"[""Support""]","[""Revenant""]",Mana,"[""Melee""]","[""Bilgewater""]",2018
-159,Neeko,4.465959584050102,13.13953488372093,Female,"[""Support""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ixtal""]",2018
-160,Cho'Gath,4.4102576375124976,12.744186046511627,Male,"[""Top""]","[""Void-Being""]",Mana,"[""Melee""]","[""Void""]",2009
-161,Kalista,4.407843660491051,12.848837209302326,Female,"[""Bottom""]","[""Undead""]",Mana,"[""Ranged""]","[""Camavor"", ""Shadow Isles""]",2014
-162,Corki,4.363868226452204,12.651162790697674,Male,"[""Bottom""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Piltover""]",2009
-163,Aurora,4.32621932934501,13.395348837209303,Female,"[""Middle""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Freljord""]",2024
-164,Twitch,4.195898830887533,13.883720930232558,Male,"[""Bottom""]","[""Chemically Altered"", ""Rat""]",Mana,"[""Ranged""]","[""Zaun""]",2009
-165,Tristana,4.147745740476024,14.162790697674419,Female,"[""Bottom""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2009
-166,Kindred,4.129208181032558,17.023255813953487,Other,"[""Jungle""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Runeterra""]",2015
-167,Briar,4.038522954165288,17.197674418604652,Female,"[""Jungle""]","[""Golem""]",Health costs,"[""Melee""]","[""Noxus""]",2023
-168,Viego,4.02310572509606,17.162790697674417,Male,"[""Jungle""]","[""Undead""]",Manaless,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2021
-169,Gnar,4.004379627837775,17.953488372093023,Male,"[""Top""]","[""Yordle""]",Rage,"[""Melee"", ""Ranged""]","[""Freljord""]",2014
-170,Blitzcrank,3.9932315889687886,17.790697674418606,Other,"[""Support""]","[""Golem""]",Mana,"[""Melee""]","[""Zaun""]",2009
-171,Fiddlesticks,3.9578836124637107,21.069767441860463,Other,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Ranged""]","[""Runeterra""]",2009
-172,Smolder,3.89841906978078,17.976744186046513,Male,"[""Bottom""]","[""Dragon""]",Mana,"[""Ranged""]","[""Camavor"", ""Noxus""]",2024
-173,Bel'Veth,3.8401869364948995,19.162790697674417,Female,"[""Jungle""]","[""Void-Being""]",Manaless,"[""Melee""]","[""Void""]",2022
+champion,gender,positions,species,resource,range_type,regions,release_year
+Aatrox,Male,"[""Top""]","[""Darkin""]",Manaless,"[""Melee""]","[""Runeterra"", ""Shurima""]",2013
+Ahri,Female,"[""Middle""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ionia""]",2011
+Akali,Female,"[""Middle""]","[""Human""]",Energy,"[""Melee""]","[""Ionia""]",2010
+Akshan,Male,"[""Middle""]","[""Human""]",Mana,"[""Ranged""]","[""Shurima""]",2021
+Alistar,Male,"[""Support""]","[""Minotaur""]",Mana,"[""Melee""]","[""Noxus"", ""Runeterra""]",2009
+Ambessa,Female,"[""Top""]","[""Human""]",Energy,"[""Melee""]","[""Noxus"", ""Piltover""]",2024
+Amumu,Male,"[""Jungle""]","[""Undead"", ""Yordle""]",Mana,"[""Melee""]","[""Shurima""]",2009
+Anivia,Female,"[""Middle""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Freljord""]",2009
+Annie,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Noxus"", ""Runeterra""]",2009
+Aphelios,Male,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Targon""]",2019
+Ashe,Female,"[""Bottom""]","[""Human"", ""Iceborn""]",Mana,"[""Ranged""]","[""Freljord""]",2009
+Aurelion Sol,Male,"[""Middle""]","[""Celestial"", ""Dragon""]",Mana,"[""Ranged""]","[""Runeterra"", ""Targon""]",2016
+Aurora,Female,"[""Middle""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Freljord""]",2024
+Azir,Male,"[""Middle""]","[""God-Warrior""]",Mana,"[""Ranged""]","[""Shurima""]",2014
+Bard,Male,"[""Support""]","[""Celestial""]",Mana,"[""Ranged""]","[""Runeterra""]",2015
+Bel'Veth,Female,"[""Jungle""]","[""Void-Being""]",Manaless,"[""Melee""]","[""Void""]",2022
+Blitzcrank,Other,"[""Support""]","[""Golem""]",Mana,"[""Melee""]","[""Zaun""]",2009
+Brand,Male,"[""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Freljord"", ""Runeterra""]",2011
+Braum,Male,"[""Support""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2014
+Briar,Female,"[""Jungle""]","[""Golem""]",Health costs,"[""Melee""]","[""Noxus""]",2023
+Caitlyn,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Piltover""]",2011
+Camille,Female,"[""Top""]","[""Cyborg"", ""Human""]",Mana,"[""Melee""]","[""Piltover""]",2016
+Cassiopeia,Female,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus"", ""Shurima""]",2010
+Cho'Gath,Male,"[""Top""]","[""Void-Being""]",Mana,"[""Melee""]","[""Void""]",2009
+Corki,Male,"[""Bottom""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Piltover""]",2009
+Darius,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Noxus""]",2012
+Diana,Female,"[""Jungle"", ""Middle""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2012
+Dr. Mundo,Male,"[""Jungle"", ""Top""]","[""Chemically Altered"", ""Human""]",Health costs,"[""Melee""]","[""Zaun""]",2009
+Draven,Male,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Noxus""]",2012
+Ekko,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Zaun""]",2015
+Elise,Female,"[""Jungle"", ""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee"", ""Ranged""]","[""Noxus"", ""Shadow Isles""]",2012
+Evelynn,Female,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2009
+Ezreal,Male,"[""Bottom""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Piltover""]",2010
+Fiddlesticks,Other,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Ranged""]","[""Runeterra""]",2009
+Fiora,Female,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2012
+Fizz,Male,"[""Middle""]","[""Yordle""]",Mana,"[""Melee""]","[""Bilgewater""]",2011
+Galio,Male,"[""Middle""]","[""Golem""]",Mana,"[""Melee""]","[""Demacia""]",2010
+Gangplank,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Bilgewater""]",2009
+Garen,Male,"[""Top""]","[""Human""]",Manaless,"[""Melee""]","[""Demacia""]",2010
+Gnar,Male,"[""Top""]","[""Yordle""]",Rage,"[""Melee"", ""Ranged""]","[""Freljord""]",2014
+Gragas,Male,"[""Jungle"", ""Top""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2010
+Graves,Male,"[""Jungle""]","[""Human""]",Mana,"[""Ranged""]","[""Bilgewater""]",2011
+Gwen,Female,"[""Jungle"", ""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2021
+Hecarim,Male,"[""Jungle""]","[""Undead""]",Mana,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2012
+Heimerdinger,Male,"[""Middle"", ""Top""]","[""Yordle""]",Mana,"[""Ranged""]","[""Piltover""]",2009
+Hwei,Male,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ionia""]",2023
+Illaoi,Female,"[""Top""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Bilgewater""]",2015
+Irelia,Female,"[""Middle"", ""Top""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Ionia""]",2010
+Ivern,Male,"[""Jungle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Freljord"", ""Ionia""]",2016
+Janna,Female,"[""Support""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Shurima"", ""Zaun""]",2009
+Jarvan IV,Male,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2011
+Jax,Male,"[""Jungle"", ""Top""]","[""Unknown""]",Mana,"[""Melee""]","[""Icathia"", ""Runeterra"", ""Shurima""]",2009
+Jayce,Male,"[""Jungle"", ""Top""]","[""Human""]",Mana,"[""Melee"", ""Ranged""]","[""Piltover""]",2012
+Jhin,Male,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2016
+Jinx,Female,"[""Bottom""]","[""Chemically Altered"", ""Human""]",Mana,"[""Ranged""]","[""Zaun""]",2013
+K'Sante,Male,"[""Top""]","[""Human""]",Mana,"[""Melee""]","[""Shurima""]",2022
+Kai'Sa,Female,"[""Bottom""]","[""Human"", ""Void-Being""]",Mana,"[""Ranged""]","[""Shurima"", ""Void""]",2018
+Kalista,Female,"[""Bottom""]","[""Undead""]",Mana,"[""Ranged""]","[""Camavor"", ""Shadow Isles""]",2014
+Karma,Female,"[""Support""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2011
+Karthus,Male,"[""Jungle""]","[""Undead""]",Mana,"[""Ranged""]","[""Noxus"", ""Shadow Isles""]",2009
+Kassadin,Male,"[""Middle""]","[""Human"", ""Void-Being""]",Mana,"[""Melee""]","[""Shurima"", ""Void""]",2009
+Katarina,Female,"[""Middle""]","[""Human""]",Manaless,"[""Melee""]","[""Noxus""]",2009
+Kayle,Female,"[""Top""]","[""Aspect"", ""Human"", ""Magically Altered""]",Mana,"[""Melee"", ""Ranged""]","[""Demacia"", ""Targon""]",2009
+Kayn,Male,"[""Jungle""]","[""Darkin"", ""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Ionia"", ""Noxus"", ""Runeterra"", ""Shurima""]",2017
+Kennen,Male,"[""Middle"", ""Top""]","[""Yordle""]",Energy,"[""Ranged""]","[""Ionia""]",2010
+Kha'Zix,Male,"[""Jungle""]","[""Void-Being""]",Mana,"[""Melee""]","[""Void""]",2012
+Kindred,Other,"[""Jungle""]","[""God"", ""Spirit""]",Mana,"[""Ranged""]","[""Runeterra""]",2015
+Kled,Male,"[""Top""]","[""Yordle""]",Courage,"[""Melee""]","[""Noxus""]",2016
+Kog'Maw,Male,"[""Bottom""]","[""Void-Being""]",Mana,"[""Ranged""]","[""Void""]",2010
+LeBlanc,Female,"[""Middle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus""]",2010
+Lee Sin,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Energy,"[""Melee""]","[""Ionia""]",2011
+Leona,Female,"[""Support""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2011
+Lillia,Female,"[""Jungle""]","[""Spirit""]",Mana,"[""Melee""]","[""Ionia""]",2020
+Lissandra,Female,"[""Middle""]","[""Human"", ""Iceborn""]",Mana,"[""Ranged""]","[""Freljord""]",2013
+Locke,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia""]",2026
+Lucian,Male,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia"", ""Shadow Isles""]",2013
+Lulu,Female,"[""Support""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2012
+Lux,Female,"[""Middle"", ""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Demacia""]",2010
+Malphite,Male,"[""Top""]","[""Golem""]",Mana,"[""Melee""]","[""Ixtal"", ""Shurima""]",2009
+Malzahar,Male,"[""Middle""]","[""Human"", ""Void-Being""]",Mana,"[""Ranged""]","[""Shurima"", ""Void""]",2010
+Maokai,Male,"[""Support""]","[""Spirit""]",Mana,"[""Melee""]","[""Shadow Isles""]",2011
+Master Yi,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Ionia""]",2009
+Mel,Female,"[""Middle"", ""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus"", ""Piltover""]",2025
+Milio,Male,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ixtal""]",2023
+Miss Fortune,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Bilgewater""]",2010
+Mordekaiser,Male,"[""Top""]","[""Revenant""]",Shield,"[""Melee""]","[""Noxus"", ""Shadow Isles""]",2010
+Morgana,Female,"[""Middle"", ""Support""]","[""Aspect"", ""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Demacia"", ""Targon""]",2009
+Naafiri,Female,"[""Jungle"", ""Middle""]","[""Darkin"", ""Dog""]",Mana,"[""Melee""]","[""Shurima""]",2023
+Nami,Female,"[""Support""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Bilgewater"", ""Runeterra""]",2012
+Nasus,Male,"[""Top""]","[""God-Warrior""]",Mana,"[""Melee""]","[""Shurima""]",2009
+Nautilus,Male,"[""Support""]","[""Revenant""]",Mana,"[""Melee""]","[""Bilgewater""]",2012
+Neeko,Female,"[""Support""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ixtal""]",2018
+Nidalee,Female,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee"", ""Ranged""]","[""Ixtal""]",2009
+Nilah,Female,"[""Bottom""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Bilgewater""]",2022
+Nocturne,Male,"[""Jungle""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2011
+Nunu & Willump,Male,"[""Jungle""]","[""Human"", ""Yeti""]",Mana,"[""Melee""]","[""Freljord""]",2009
+Olaf,Male,"[""Top""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2010
+Orianna,Female,"[""Middle""]","[""Golem""]",Mana,"[""Ranged""]","[""Piltover""]",2011
+Ornn,Male,"[""Top""]","[""God"", ""Spirit""]",Mana,"[""Melee""]","[""Freljord""]",2017
+Pantheon,Male,"[""Jungle"", ""Support"", ""Top""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Targon""]",2010
+Poppy,Female,"[""Support"", ""Top""]","[""Yordle""]",Mana,"[""Melee""]","[""Demacia""]",2010
+Pyke,Male,"[""Support""]","[""Revenant""]",Mana,"[""Melee""]","[""Bilgewater""]",2018
+Qiyana,Female,"[""Jungle"", ""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Melee""]","[""Ixtal""]",2019
+Quinn,Female,"[""Top""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia""]",2013
+Rakan,Male,"[""Support""]","[""Vastayan""]",Mana,"[""Melee""]","[""Ionia""]",2017
+Rammus,Male,"[""Jungle""]","[""Unknown""]",Mana,"[""Melee""]","[""Shurima""]",2009
+Rek'Sai,Female,"[""Jungle""]","[""Void-Being""]",Rage,"[""Melee""]","[""Shurima"", ""Void""]",2014
+Rell,Female,"[""Support""]","[""Human"", ""Magically Altered"", ""Magicborn""]",Mana,"[""Melee""]","[""Noxus""]",2020
+Renata Glasc,Female,"[""Support""]","[""Chemically Altered"", ""Human""]",Mana,"[""Ranged""]","[""Zaun""]",2022
+Renekton,Male,"[""Top""]","[""God-Warrior""]",Fury,"[""Melee""]","[""Shurima""]",2011
+Rengar,Male,"[""Jungle""]","[""Vastayan""]",Ferocity,"[""Melee""]","[""Ixtal"", ""Shurima""]",2012
+Riven,Female,"[""Top""]","[""Human""]",Manaless,"[""Melee""]","[""Ionia"", ""Noxus""]",2011
+Rumble,Male,"[""Top""]","[""Yordle""]",Heat,"[""Melee""]","[""Bandle City""]",2011
+Ryze,Male,"[""Middle""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Runeterra""]",2009
+Samira,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Noxus"", ""Shurima""]",2020
+Sejuani,Female,"[""Jungle""]","[""Human"", ""Iceborn""]",Mana,"[""Melee""]","[""Freljord""]",2012
+Senna,Female,"[""Support""]","[""Human"", ""Undead""]",Mana,"[""Ranged""]","[""Shadow Isles""]",2019
+Seraphine,Female,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Piltover"", ""Zaun""]",2020
+Sett,Male,"[""Top""]","[""Human"", ""Vastayan""]",Grit,"[""Melee""]","[""Ionia""]",2020
+Shaco,Male,"[""Jungle"", ""Support""]","[""Spirit""]",Mana,"[""Melee""]","[""Runeterra""]",2009
+Shen,Male,"[""Support"", ""Top""]","[""Human"", ""Spiritualist""]",Energy,"[""Melee""]","[""Ionia""]",2010
+Shyvana,Female,"[""Jungle""]","[""Dragon"", ""Magically Altered""]",Fury,"[""Melee""]","[""Demacia""]",2011
+Singed,Male,"[""Top""]","[""Chemically Altered"", ""Human""]",Mana,"[""Melee""]","[""Piltover"", ""Zaun""]",2009
+Sion,Male,"[""Top""]","[""Revenant""]",Mana,"[""Melee""]","[""Noxus""]",2009
+Sivir,Female,"[""Bottom""]","[""Human""]",Mana,"[""Ranged""]","[""Shurima""]",2009
+Skarner,Male,"[""Jungle""]","[""Brackern""]",Mana,"[""Melee""]","[""Ixtal""]",2011
+Smolder,Male,"[""Bottom""]","[""Dragon""]",Mana,"[""Ranged""]","[""Camavor"", ""Noxus""]",2024
+Sona,Female,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Demacia"", ""Ionia""]",2010
+Soraka,Female,"[""Support""]","[""Celestial""]",Mana,"[""Ranged""]","[""Ionia"", ""Targon""]",2009
+Swain,Male,"[""Support""]","[""Human"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Noxus""]",2010
+Sylas,Male,"[""Jungle"", ""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Melee""]","[""Demacia"", ""Freljord""]",2019
+Syndra,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Ionia""]",2012
+Tahm Kench,Male,"[""Support"", ""Top""]","[""Demon"", ""Spirit""]",Mana,"[""Melee""]","[""Bilgewater"", ""Runeterra""]",2015
+Taliyah,Female,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Shurima""]",2016
+Talon,Male,"[""Jungle"", ""Middle""]","[""Human""]",Mana,"[""Melee""]","[""Noxus""]",2011
+Taric,Male,"[""Support""]","[""Aspect"", ""Human""]",Mana,"[""Melee""]","[""Demacia"", ""Targon""]",2009
+Teemo,Male,"[""Top""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2009
+Thresh,Male,"[""Support""]","[""Undead""]",Mana,"[""Ranged""]","[""Shadow Isles""]",2013
+Tristana,Female,"[""Bottom""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City""]",2009
+Trundle,Male,"[""Jungle"", ""Top""]","[""Iceborn"", ""Troll""]",Mana,"[""Melee""]","[""Freljord""]",2010
+Tryndamere,Male,"[""Top""]","[""Human"", ""Magically Altered""]",Fury,"[""Melee""]","[""Freljord""]",2009
+Twisted Fate,Male,"[""Middle""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Bilgewater""]",2009
+Twitch,Male,"[""Bottom""]","[""Chemically Altered"", ""Rat""]",Mana,"[""Ranged""]","[""Zaun""]",2009
+Udyr,Male,"[""Jungle""]","[""Human"", ""Spiritualist""]",Mana,"[""Melee""]","[""Freljord"", ""Ionia""]",2009
+Urgot,Male,"[""Top""]","[""Chemically Altered"", ""Cyborg"", ""Human""]",Mana,"[""Ranged""]","[""Noxus"", ""Zaun""]",2010
+Varus,Male,"[""Bottom""]","[""Darkin"", ""Human""]",Mana,"[""Ranged""]","[""Ionia"", ""Runeterra"", ""Shurima""]",2012
+Vayne,Female,"[""Bottom"", ""Top""]","[""Human""]",Mana,"[""Ranged""]","[""Demacia""]",2011
+Veigar,Male,"[""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Runeterra"", ""Shadow Isles""]",2009
+Vel'Koz,Male,"[""Middle"", ""Support""]","[""Void-Being""]",Mana,"[""Ranged""]","[""Void""]",2014
+Vex,Female,"[""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Bandle City"", ""Shadow Isles""]",2021
+Vi,Female,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Piltover"", ""Zaun""]",2012
+Viego,Male,"[""Jungle""]","[""Undead""]",Manaless,"[""Melee""]","[""Camavor"", ""Shadow Isles""]",2021
+Viktor,Male,"[""Middle""]","[""Cyborg"", ""Human""]",Mana,"[""Ranged""]","[""Piltover"", ""Zaun""]",2011
+Vladimir,Male,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Bloodthirst,"[""Ranged""]","[""Camavor"", ""Noxus"", ""Shadow Isles""]",2010
+Volibear,Male,"[""Jungle"", ""Top""]","[""God"", ""Spirit""]",Mana,"[""Melee""]","[""Freljord""]",2011
+Warwick,Male,"[""Jungle""]","[""Chemically Altered"", ""Cyborg"", ""Human""]",Mana,"[""Melee""]","[""Zaun""]",2009
+Wukong,Male,"[""Jungle""]","[""Vastayan""]",Mana,"[""Melee""]","[""Ionia""]",2011
+Xayah,Female,"[""Bottom""]","[""Vastayan""]",Mana,"[""Ranged""]","[""Ionia""]",2017
+Xerath,Male,"[""Middle"", ""Support""]","[""Baccai""]",Mana,"[""Ranged""]","[""Shurima""]",2011
+Xin Zhao,Male,"[""Jungle""]","[""Human""]",Mana,"[""Melee""]","[""Demacia"", ""Ionia"", ""Noxus""]",2010
+Yasuo,Male,"[""Middle"", ""Top""]","[""Human"", ""Magicborn""]",Flow,"[""Melee""]","[""Ionia""]",2013
+Yone,Male,"[""Middle"", ""Top""]","[""Human"", ""Magically Altered""]",Manaless,"[""Melee""]","[""Ionia""]",2020
+Yorick,Male,"[""Top""]","[""Human"", ""Magically Altered""]",Mana,"[""Melee""]","[""Shadow Isles""]",2011
+Yunara,Female,"[""Bottom""]","[""Human"", ""Spiritualist""]",Mana,"[""Ranged""]","[""Ionia""]",2025
+Yuumi,Female,"[""Support""]","[""Cat"", ""Magically Altered""]",Mana,"[""Ranged""]","[""Bandle City""]",2019
+Zaahen,Male,"[""Top""]","[""Darkin"", ""Human""]",Mana,"[""Melee""]","[""Ionia"", ""Shurima""]",2025
+Zac,Male,"[""Jungle""]","[""Golem""]",Health costs,"[""Melee""]","[""Zaun""]",2013
+Zed,Male,"[""Jungle"", ""Middle""]","[""Human"", ""Magically Altered""]",Energy,"[""Melee""]","[""Ionia""]",2012
+Zeri,Female,"[""Bottom""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Zaun""]",2022
+Ziggs,Male,"[""Bottom"", ""Middle""]","[""Yordle""]",Mana,"[""Ranged""]","[""Zaun""]",2012
+Zilean,Male,"[""Support""]","[""Human"", ""Magicborn""]",Mana,"[""Ranged""]","[""Icathia"", ""Runeterra"", ""Shurima""]",2009
+Zoe,Female,"[""Middle""]","[""Aspect"", ""Human""]",Mana,"[""Ranged""]","[""Targon""]",2017
+Zyra,Female,"[""Support""]","[""Human"", ""Plant""]",Mana,"[""Ranged""]","[""Ixtal""]",2012

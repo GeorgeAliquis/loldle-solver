@@ -14,7 +14,22 @@ The project includes:
 
 ---
 
-## Demo
+## Table of Contents
+
+- [Overview](#overview)
+- [Solver Demo](#demo)
+- [What is LoLdle?](#what-is-loldle)
+- [Key Idea](#key-idea)
+- [How It Works](#how-it-works)
+- [Running the Solver](#running-the-solver)
+- [Running the CSV Builder](#running-the-csv-builder)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Author](#author)
+
+---
+
+## Solver Demo
 
 ![Cool Animation](resources/demo.gif)
 
@@ -128,6 +143,20 @@ python -m solver
 
 ---
 
+## Running the CSV Builder
+
+### 0. Prerequisites
+
+* Same steps (0-4) for setting up the repo and venv for the solver
+
+### 1. Run the CSV builder
+
+```bash
+py -m dataset.builder
+```
+
+---
+
 ## Features
 
 ### Fully Automated ETL Pipeline
@@ -165,17 +194,17 @@ python -m solver
 ## Project Structure
 ```
 .
-│
-├── resources/                       # Data storage & images
-├── results/
-│   ├── plots/                       # Plots for visual analysis
-│   └── loldle_dataset.csv           # LoLdle dataset with all champion properties & guess rankings
-│
 ├── dataset/
 │   └── builder.py                   # LoLdle dataset builder for independent analysis
 │
 ├── notebooks/
 │   └── loldle_analysis.ipynb        # Exploratory + theoretical analysis
+│
+├── resources/                       # Data storage & images
+│
+├── results/
+│   ├── plots/                       # Plots for visual analysis
+│   └── loldle_dataset.csv           # LoLdle dataset with all champion properties
 │
 ├── solver/
 │   ├── __main__.py                  # Run the interactive solver
@@ -187,6 +216,7 @@ python -m solver
 │   ├── ui/                          # UI utilities for cli.py
 │   └── utils/                       # Helper functionalities
 │
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt
