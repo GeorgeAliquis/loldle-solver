@@ -1,5 +1,5 @@
 {
-    "latest_update": "2026-07-13",
+    "latest_update": "2026-11-05",
     "champions": [
         {
             "championName": "Aatrox",
@@ -42,6 +42,7 @@
             "championName": "Akali",
             "gender": "Female",
             "positions": [
+                "Top",
                 "Middle"
             ],
             "species": [
@@ -397,7 +398,8 @@
             "championName": "Camille",
             "gender": "Female",
             "positions": [
-                "Top"
+                "Top",
+                "Support"
             ],
             "species": [
                 "Human",
@@ -416,7 +418,6 @@
             "championName": "Cassiopeia",
             "gender": "Female",
             "positions": [
-                "Top",
                 "Middle"
             ],
             "species": [
@@ -437,7 +438,8 @@
             "championName": "Cho'Gath",
             "gender": "Male",
             "positions": [
-                "Top"
+                "Top",
+                "Jungle"
             ],
             "species": [
                 "Void-Being"
@@ -512,8 +514,7 @@
             "championName": "Dr. Mundo",
             "gender": "Male",
             "positions": [
-                "Top",
-                "Jungle"
+                "Top"
             ],
             "species": [
                 "Human",
@@ -569,8 +570,7 @@
             "championName": "Elise",
             "gender": "Female",
             "positions": [
-                "Jungle",
-                "Support"
+                "Jungle"
             ],
             "species": [
                 "Human",
@@ -684,7 +684,8 @@
             "championName": "Galio",
             "gender": "Male",
             "positions": [
-                "Middle"
+                "Middle",
+                "Support"
             ],
             "species": [
                 "Golem"
@@ -795,8 +796,7 @@
             "championName": "Gwen",
             "gender": "Female",
             "positions": [
-                "Top",
-                "Jungle"
+                "Top"
             ],
             "species": [
                 "Human",
@@ -854,8 +854,7 @@
             "championName": "Heimerdinger",
             "gender": "Male",
             "positions": [
-                "Top",
-                "Middle"
+                "Top"
             ],
             "species": [
                 "Yordle"
@@ -1227,8 +1226,7 @@
             "championName": "Kennen",
             "gender": "Male",
             "positions": [
-                "Top",
-                "Middle"
+                "Top"
             ],
             "species": [
                 "Yordle"
@@ -1413,8 +1411,7 @@
             "championName": "Locke",
             "gender": "Male",
             "positions": [
-                "Middle",
-                "Jungle"
+                "Middle"
             ],
             "species": [
                 "Human"
@@ -1566,6 +1563,7 @@
             "gender": "Female",
             "positions": [
                 "Middle",
+                "Bottom",
                 "Support"
             ],
             "species": [
@@ -1642,7 +1640,6 @@
             "championName": "Morgana",
             "gender": "Female",
             "positions": [
-                "Middle",
                 "Support"
             ],
             "species": [
@@ -1891,7 +1888,6 @@
             "gender": "Male",
             "positions": [
                 "Top",
-                "Jungle",
                 "Support"
             ],
             "species": [
@@ -1968,7 +1964,8 @@
             "championName": "Quinn",
             "gender": "Female",
             "positions": [
-                "Top"
+                "Top",
+                "Jungle"
             ],
             "species": [
                 "Human"
@@ -2269,8 +2266,7 @@
             "championName": "Shaco",
             "gender": "Male",
             "positions": [
-                "Jungle",
-                "Support"
+                "Jungle"
             ],
             "species": [
                 "Spirit"
@@ -2539,6 +2535,7 @@
             "championName": "Taliyah",
             "gender": "Female",
             "positions": [
+                "Jungle",
                 "Middle"
             ],
             "species": [
@@ -2829,7 +2826,6 @@
             "championName": "Vel'Koz",
             "gender": "Male",
             "positions": [
-                "Middle",
                 "Support"
             ],
             "species": [
@@ -2905,7 +2901,8 @@
             "championName": "Viktor",
             "gender": "Male",
             "positions": [
-                "Middle"
+                "Middle",
+                "Bottom"
             ],
             "species": [
                 "Human",
@@ -3197,7 +3194,6 @@
             "championName": "Zed",
             "gender": "Male",
             "positions": [
-                "Jungle",
                 "Middle"
             ],
             "species": [
@@ -3276,7 +3272,8 @@
             "championName": "Zoe",
             "gender": "Female",
             "positions": [
-                "Middle"
+                "Middle",
+                "Support"
             ],
             "species": [
                 "Human",
